@@ -23,7 +23,7 @@ class Graph:
                 print(deVertex)
                 for adjacentVertex in self.gdict[deVertex]:
                     if adjacentVertex not in visited:
-                        # enqueue add into queue
+                        # add into stack
                         queue.append(adjacentVertex)
                         # mark it visited
                         visited.append(adjacentVertex)
